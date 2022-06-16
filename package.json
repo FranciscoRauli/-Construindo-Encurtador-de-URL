@@ -1,0 +1,25 @@
+{
+  "name": "construindo-encurtador-de-url",
+  "version": "1.0.0",
+  "description": "url shortener dio project",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "dev": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Rauli",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.8",
+    "nodemon": "^2.0.16",
+    "shortid": "^2.2.16",
+    "typescript": "^4.7.3"
+  }
+}
